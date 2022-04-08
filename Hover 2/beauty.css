@@ -40,11 +40,12 @@ body {
     hsl(11deg 100% 81%) 89%,
     hsl(0deg 81% 81%) 100%
   );
+  transition: 0.3s;
 }
 
 .container2 {
   cursor: pointer;
-  transition: 0.3s;
+  
 }
 
 .container:hover {
