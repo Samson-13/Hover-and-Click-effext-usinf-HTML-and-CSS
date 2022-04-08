@@ -9,7 +9,9 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20%;
-  background-color: rgb(255, 252, 252);
+  background: #8ac9df;
+  background: -webkit-linear-gradient(to right, #fff, #7db7ca);
+  background: linear-gradient(to right, #fff, #88c0d3);
 }
 
 .container h1 {
@@ -45,11 +47,13 @@ body {
 
 .container2 {
   cursor: pointer;
-  
 }
 
 .container:hover {
-  box-shadow: 1px 8px 20px 13px #ffb6c1;
+  box-shadow: 1px 8px 20px 13px #ee9494;
+  background: #9796f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+  background: linear-gradient(to right, #fbc7d4, #9796f0);
 }
 
 .container2:active {
